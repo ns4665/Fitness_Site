@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness landing page</title>
+  <link rel="stylesheet" href="Style.css">
+  <script src="Script.js"></script>
+</head>
+<body>
+
+  <!--first header or contacts-->
+  <div class="top-contacts">
+    <div class="contacts-icons">
+      <ul>
+        <li><a href="#"><img src="img/phone_26px.png"></a></li>0123456789
+        <li><a href="#"><img src="img/envelope_26px.png"></a></li>info@example.co.za
+      </ul>
+    </div>
+    <div class="social-icons">
+      <ul>
+        <li><a href="#"><img src="img/facebook_f_26px1.png"></a></li>
+        <li><a href="#"><img src="img/twitter_26px1.png"></a></li>
+        <li><a href="#"><img src="img/instagram_old_26px1.png"></a></li>
+        <li><a href="#"><img src="img/linkedin_2_26px.png"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--header or Navigation-->
+<header class="header">
+<div class="logo"><h1>Fitness</h1></div>
+<div class="menuToggle " onclick="toggleMenu();"></div>
+<ul class="navigation">
+  <li><a href="#hero" onclick="toggleMenu();">Home</a></li>
+  <li><a href="#our_courses" onclick="toggleMenu();">Courses</a></li>
+   <li><a href="#about" onclick="toggleMenu();">About</a></li>
+  <li><a href="#trainers" onclick="toggleMenu();">Trainers</a></li>
+  <li><a href="#prices" onclick="toggleMenu();">Prices</a></li>
+<li><a href="#contacts" onclick="toggleMenu();">Contacts</a></li>
+</ul>
+</header>
+
+  <!--Home section-->
+  <section class="hero" id="hero"> 
+<div class="container">
+  <div class="box">
+<h1>Your best fitness club in town</h1>
+<p>We do our best to help you get in shap</p>
+
+<div class="hero-buttons">
+  <a href="#about">
+    <button class="btn">About</button>
+  </a>
+    </div>
+    <a href="#our_courses">
+      <button class="btn courses">courses</button>
+    </a>
+      </div>
+</div>
+
+</div>
+  </section>
+
+
+  <!--courses section-->
+  <section class="our_courses" id="our_courses">
+
+    <div class="title">
+<h2>Our Courses</h2>
+<div class="border"></div>
+<p>The navbar will stick to the top when you <br>reach its scroll position
+  Some text to enable scrolling.</p>
+    </div>
+
+<div class="container">
+
+<div class="box">
+<div class="imgbox">
+  <img src="img/courses-3.jpg">
+</div>
+<div class="text">
+<h3>Yoga training</h3>
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+  definitiones no quo, maluisset concludaturque et eum, altera fabulas
+   ut quo. Atqui causae gloriatur ius te</p>
+</div>
+</div>
+<div class="box">
+  <div class="imgbox">
+    <img src="img/courses-1.jpg">
+  
+  </div>
+  <div class="text">
+  <h3>Body Building</h3>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+    definitiones no quo, maluisset concludaturque et eum, altera fabulas
+     ut quo. Atqui causae gloriatur ius te</p>
+  </div>
+  </div>
+  <div class="box">
+    <div class="imgbox">
+    <img src="img/courses-2.jpg">
+    </div>
+    <div class="text">
+    <h3>Fitness</h3>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+      definitiones no quo, maluisset concludaturque et eum, altera fabulas
+       ut quo. Atqui causae gloriatur ius te</p>
+    </div>
+    </div>
+
+
+</div>
+  </section>
+
+
+  <!--about section-->
+  <section class="about" id="about">
+    <div class="container">
+
+
+      <div class="box">
+<div class="imgbox">
+  <img src="img/about-img-2.jpg">
+</div>
+      </div>
+
+      <div class="box">
+<div class="text">
+<h2>About Fitness</h2>
+<div class="border"></div>
+<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum 
+  definitiones no quo, maluisset concludaturque et eum, altera fabulas
+   ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert 
+  laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+  crolling.. Lorem ipsum dolor sit amet, illum definitiones no 
+  quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur
+   ius te, id agam omnis evertitur eum. Affert laboramus
+   repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+  
+  Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no
+   quo, maluisset concludaturque et eum, altera fabulas 
+  ut quo. Atqui causae gloriatur ius te, id agam omnis
+</p>
+
+
+<a href="#contacts">
+  <button class="btn">Let us Begin</button>
+</a>
+</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--call to action-->
+  <section class="action">
+<div class="container">
+
+<div class="box">
+<div class="text">
+<img src="img/trainers_50px.png">
+<h2>123</h2>
+<h3>Trainers</h3>
+</div>
+</div>
+<div class="box">
+  <div class="text">
+  <img src="img/user_account_50px.png">
+  <h2>1103</h2>
+  <h3>Satisfied Trainees</h3>
+  </div>
+  </div>
+  <div class="box">
+<div class="text">
+<img src="img/thumbs_up_50px.png">
+<h2>1230</h2>
+<h3>Completed Courses</h3>
+</div>
+</div>
+<div class="box">
+  <div class="text">
+  <img src="img/trophy_50px.png">
+  <h2>13</h2>
+  <h3>Awards Won</h3>
+  </div>
+  </div>
+
+</div>
+  </section>
+
+  <!--trainers section-->
+<section class="trainers" id="trainers">
+
+  <div class="title">
+    <h2>Our Trainers</h2>
+    <div class="border"></div>
+    <p>The navbar will stick to the top when you <br>reach its scroll position
+      Some text to enable scrolling.</p>
+        </div>
+
+<div class="container">
+  <div class="box">
+<div class="text">
+<img src="img/trainer-img2.jpg">
+<div class="content">
+  <h3>Beautiful Name</h3>
+
+  <ul class="icons">
+  <li><img src="img/facebook_f_26px1.png" alt=""></li>
+  <li><img src="img/twitter_26px1.png" alt=""></li>
+  <li><img src="img/instagram_old_26px1.png" alt=""></li>
+  </ul>
+</div>
+
+
+</div>
+  </div>
+  <div class="box">
+    <div class="text">
+    <img src="img/trainer-img1.jpg">
+    <div class="content">
+      <h3>Beautiful Name</h3>
+      <ul class="icons">
+        <li><img src="img/facebook_f_26px1.png" alt=""></li>
+        <li><img src="img/twitter_26px1.png" alt=""></li>
+        <li><img src="img/instagram_old_26px1.png" alt=""></li>
+        </ul>
+    </div>
+    
+    </div>
+      </div>
+      <div class="box">
+<div class="text">
+<img src="img/trainer-img3.jpg">
+<div class="content">
+  <h3>Beautiful Name</h3>
+<ul class="icons">
+  <li><img src="img/facebook_f_26px1.png" alt=""></li>
+  <li><img src="img/twitter_26px1.png" alt=""></li>
+  <li><img src="img/instagram_old_26px1.png" alt=""></li>
+  </ul>
+</div>
+
+</div>
+  </div>
+</div>
+</section>
+
+<!--prices section-->
+<section class="prices" id="prices">
+  <div class="title">
+  <h2>Our Prices</h2>
+    <div class="border"></div>
+    <p>The navbar will stick to the top when you <br>reach its scroll position
+      Some text to enable scrolling.</p>
+        </div>
+        </div>
+
+<div class="container">
+<div class="box">
+<div class="text">
+<h2>Healthy</h2>
+<h3>R123</h3>
+<ul>
+  <li>One General Trainer</li></li>
+  <li>Gym Services</li></li>
+  <li>15 Aerobics</li></li>
+   <li>10 Thai Massages</li></li>
+    <li>5 Yoga Courses</li></li>
+</ul>
+</div>
+</div>
+<div class="box">
+  <div class="text">
+  <h2>Rigid Body</h2>
+  <h3>R323</h3>
+  <ul>
+
+    <li>Two General Trainer</li></li>
+    <li>Gym Services</li></li>
+    <li>15 Aerobics</li></li>
+     <li>10 Thai Massages</li></li>
+      <li>5 Yoga Courses</li></li>
+  </ul>
+  </div>
+  </div>
+  <div class="box">
+    <div class="text">
+    <h2>Best Fit</h2>
+    <h3>R453</h3>
+    <ul>
+      <li>Three General Trainer</li></li>
+      <li>Gym Services</li></li>
+      <li>15 Aerobics</li></li>
+       <li>10 Thai Massages</li></li>
+        <li>5 Yoga Courses</li></li>
+    </ul>
+    </div>
+    </div>
+
+</div>
+</section>
+
+<!--contacts section-->
+<section class="contacts" id="contacts">
+  <div class="title">
+    <h2>Get In Touch</h2>
+      <div class="border"></div>
+      <p>The navbar will stick to the top when you <br>reach its scroll position
+        Some text to enable scrolling.</p>
+          </div>
+          </div>
+
+          <div class="container">
+<div class="box">
+  <div class="text">
+    <img src="img/phone_26px.png" alt="">
+    <h3>Phone</h3>
+    <p>0123456789</p>
+  </div>
+</div>
+<div class="box">
+  <div class="text">
+    <img src="img/envelope_26px.png" alt="">
+    <h3>Email</h3>
+    <p>info@example. co.za</p>
+  </div>
+</div>
+<div class="box">
+  <div class="text">
+    <img src="img/location_26px.png" alt="">
+    <h3>Location</h3>
+    <p>Durban</p>
+  </div>
+</div>
+          </div>
+</section>
+
+<!--footer section-->
+<footer class="footer"   id="footer">
+  <div class="container">
+
+    <div class="box">
+      <div class="text">
+        <h3>Contacts Us</h3>
+        <p><span>Phone:</span> 0123456789</p>
+        <p><span>Email:</span> info@example .co.za</p>
+        <p><span>Loaction:</span> Durban</p>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="text">
+        <h3>Courses</h3>
+        <ul><li>Fitness</li>
+          <li>Body building</li>
+          <li>Yoga & Meditation</li>
+        </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="text">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#our_courses">Courses</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#prices">Prices</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="box">
+      <div class="text">
+        <h3>Follow Us</h3>
+        <div class="imgbox">
+          <img src="img/facebook_f_26px1.png">
+          <img src="img/twitter_26px1.png">
+           <img src="img/instagram_old_26px1.png">
+           <img src="img/linkedin_2_26px.png">
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="copyright">
+    <p>Copyright &copy; 2021 | Nkululeko Mthethwa</p> 
+   </div>
+  
+  </footer>
+</body>
+</html>
